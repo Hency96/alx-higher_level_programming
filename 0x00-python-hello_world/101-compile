@@ -1,0 +1,3 @@
+#!bin/bash
+export PYFILE=my_main.py
+python script_name.py
