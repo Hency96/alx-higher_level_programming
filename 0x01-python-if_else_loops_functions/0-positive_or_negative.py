@@ -7,4 +7,4 @@ if n_number < 0:
 elif n_number == 0:
     print(f"{n_number} is zero")
 else:
-    print(f"{n_number} is positive ")
+    print(f"{n_number} is positive")
