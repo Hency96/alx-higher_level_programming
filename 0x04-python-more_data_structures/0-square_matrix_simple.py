@@ -13,14 +13,12 @@ Y = [
     [7, 8, 9]
 ]
 
-matrix = [[0,0,0],
-         [0,0,0],
-         [0,0,0]]
+mat = matrix=[]
 
 # iterate through rows
 for i in range(len(X)):
    # iterate through columns
    for j in range(len(X[0])):
-       matrix[i][j] = X[i][j] * Y[i][j]
+       mat[i][j] = X[i][j] * Y[i][j]
 
-return (matrix)
+return (mat
